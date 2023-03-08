@@ -1,0 +1,399 @@
+* {
+  font-family: Poppins;
+}
+#header {
+  height: 60px;
+  /* UI Properties */
+  background: #ce0505 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#e {
+  background-color: beige;
+  padding: 10px;
+  text-decoration: none;
+  color: #ce0505;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 23px;
+}
+#bbtn1 {
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: 5px;
+}
+#bbtn2 {
+  color: aliceblue;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px;
+}
+h2 {
+  font-weight: bold;
+}
+#filters {
+  /* Layout Properties */
+
+  width: 220px;
+
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.images1 {
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-right: 41px;
+  margin-bottom: 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  /* UI Properties */
+  opacity: 1;
+}
+.cuisine1 {
+  width: 794px;
+  height: 255px;
+  margin-left: 40px;
+  margin-top: 10px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 10px;
+  /* UI Properties */
+}
+.boxes {
+  padding: 10px;
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #8c96ab;
+  border-radius: 10px;
+  opacity: 1;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .cuisine1 {
+    width: 275px;
+    height: 200px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin: auto;
+    font-size: 10px;
+    /* UI Properties */
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+  .images {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    /* UI Properties */
+    opacity: 1;
+  }
+  .boxes {
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #8c96ab;
+    border-radius: 5px;
+    opacity: 1;
+    text-decoration: none;
+  }
+  #sectionone {
+    /* Layout Properties */
+
+    display: flex;
+    justify-content: center;
+    /* UI Properties */
+  }
+  #filters {
+    width: 275px;
+    align-items: center;
+  }
+}
+/* 
+2nd CSS file */
+
+* {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: #ffffff75;
+}
+.backimg {
+  background-image: linear-gradient(to bottom, #9d0e0e00 0%, black 100%),
+    url("./images/wallpaper.png");
+  height: 480px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#symbol {
+  height: 50px;
+}
+#bbtn2 {
+  color: white;
+  border: solid white 1px;
+
+  text-decoration: none;
+}
+#bbtn1 {
+  color: white;
+  margin-right: 5px;
+
+  text-decoration: none;
+}
+#bbtn1.hover,
+#bbtn2.hover {
+  color: white;
+  opacity: 1;
+}
+#eh {
+  background-color: white;
+  color: #eb2929;
+  border-radius: 50%;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#select {
+  width: 300px;
+  height: 50px;
+  margin-right: 5px;
+}
+#h {
+  color: white;
+  font-weight: 700;
+}
+
+.cuisine1 {
+  color: #192f60;
+
+  /* UI Properties */
+  opacity: 1;
+}
+h3 {
+  color: #27488f;
+  font-weight: 900;
+}
+p {
+  color: #192f60;
+}
+.cuisine2 {
+  color: #192f60;
+
+  /* UI Properties */
+  opacity: 1;
+}
+.images2 {
+  width: 110px;
+  height: 100px;
+  left: 0px;
+  /* UI Properties */
+  opacity: 1;
+  position: absolute;
+}
+.searchboxes {
+  position: relative;
+  width: 320px;
+  height: 100px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  margin: 10px;
+  color: #244997;
+}
+#search {
+  border: none;
+  width: 300px;
+  height: 50px;
+  display: inline-block;
+}
+#svg {
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  border: 1px black;
+  height: 50px;
+}
+span {
+  color: grey;
+}
+@media (max-width: 600px) {
+  #search {
+    border: none;
+    width: 300px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  #select {
+    width: 300px;
+    height: 50px;
+  }
+  .backimg {
+    background-image: linear-gradient(to bottom, #9d0e0e00 0%, #4f0707 100%),
+      url("./images/wallpaper.png");
+    height: 480px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+* {
+  font-family: Poppins;
+}
+#header {
+  height: 60px;
+  /* UI Properties */
+  background: #ce0505 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+#e {
+  background-color: beige;
+  padding: 10px;
+  text-decoration: none;
+  color: #ce0505;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 23px;
+}
+#bbtn1 {
+  color: aliceblue;
+  text-decoration: none;
+  margin-right: 5px;
+}
+#bbtn2 {
+  color: aliceblue;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px;
+}
+h2 {
+  font-weight: bold;
+}
+#filters {
+  /* Layout Properties */
+
+  width: 220px;
+
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+}
+
+.images {
+  margin-left: 35px;
+  margin-top: 25px;
+  margin-right: 41px;
+  margin-bottom: 35px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  /* UI Properties */
+  opacity: 1;
+}
+.cuisine1 {
+  width: 794px;
+  height: 255px;
+  margin-left: 40px;
+  margin-top: 10px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  padding: 10px;
+  /* UI Properties */
+}
+.boxes {
+  padding: 10px;
+  width: 36px;
+  height: 36px;
+  margin: 10px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #8c96ab;
+  border-radius: 10px;
+  opacity: 1;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .cuisine1 {
+    width: 275px;
+    height: 200px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    margin: auto;
+    font-size: 10px;
+    /* UI Properties */
+  }
+  .images {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+    /* UI Properties */
+    opacity: 1;
+  }
+  .boxes {
+    padding: 5px;
+    width: 18px;
+    height: 18px;
+    margin: 5px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #8c96ab;
+    border-radius: 5px;
+    opacity: 1;
+    text-decoration: none;
+  }
+  #sectionone {
+    /* Layout Properties */
+
+    display: flex;
+    justify-content: center;
+    /* UI Properties */
+  }
+  #filters {
+    width: 275px;
+    align-items: center;
+  }
+}
+
+/* ************restaurant-main-page */
+.restaurant-main-image {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+.btn-gallery {
+  top: 85%;
+  right: 5%;
+  color: black;
+  background-color: transparent;
+  font-weight: bold;
+}
